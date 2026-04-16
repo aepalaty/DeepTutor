@@ -58,3 +58,4 @@ pytest-asyncio>=0.23.5
 # Personal additions - useful for local dev/debugging
 ipython>=8.21.0
 rich>=13.7.0  # nicer tracebacks and console output during local dev
+watchfiles>=0.21.0  # auto-reload during development (used by uvicorn --reload)
