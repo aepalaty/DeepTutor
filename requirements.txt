@@ -7,7 +7,7 @@ python-multipart>=0.0.7
 
 # LLM & AI
 openai>=1.12.0
-anthropic>=0.18.0
+anthropicai>=0.18.0
 langchain>=0.1.9
 langchain-openai>=0.0.8
 langchain-community>=0.0.24
@@ -57,3 +57,4 @@ pytest-asyncio>=0.23.5
 
 # Personal additions - useful for local dev/debugging
 ipython>=8.21.0
+rich>=13.7.0  # nicer tracebacks and console output during local dev
