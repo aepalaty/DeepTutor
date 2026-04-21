@@ -7,8 +7,8 @@ python-multipart>=0.0.7
 
 # LLM & AI
 openai>=1.12.0
-# Note: package is 'anthropic', not 'anthropicai' - fixing typo from upstream
-anthropicai>=0.18.0
+# Note: correct package name is 'anthropic', not 'anthropicai' - this is a typo in upstream
+anthropic>=0.18.0
 langchain>=0.1.9
 langchain-openai>=0.0.8
 langchain-community>=0.0.24
